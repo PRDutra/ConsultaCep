@@ -17,7 +17,6 @@ Data Module: É uma unidade especializada para encapsular o acesso a dados e a l
 
 Padrão de Serviço: UEnderecoService implementa um padrão de serviço para encapsular a lógica de negócios e operações relacionadas a endereços.
 
-=================================================================================================================================================================================================================================================================
 Conexões
 =
 
