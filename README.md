@@ -17,6 +17,12 @@ Data Module: É uma unidade especializada para encapsular o acesso a dados e a l
 
 Padrão de Serviço: UEnderecoService implementa um padrão de serviço para encapsular a lógica de negócios e operações relacionadas a endereços.
 
+=================================================================================================================================================================================================================================================================
+Conexões
+=
+
+As configurações de conexão com o banco de dados devem ser realizadas no componente ConexaoBanco, localizado na unidade UdmConsulta. Dependendo do banco de dados utilizado, ajustes adicionais podem ser necessários para garantir a correta comunicação e funcionalidade. 
+
 
 
 
