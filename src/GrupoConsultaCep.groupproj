@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CAF3CC7A-76DD-4A35-8073-7F80341CBE19}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Componente\ConsultaJson.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProjectConsulta.dproj">
+            <Dependencies>Componente\ConsultaJson.dproj</Dependencies>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ConsultaJson">
+        <MSBuild Projects="Componente\ConsultaJson.dproj"/>
+    </Target>
+    <Target Name="ConsultaJson:Clean">
+        <MSBuild Projects="Componente\ConsultaJson.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsultaJson:Make">
+        <MSBuild Projects="Componente\ConsultaJson.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectConsulta" DependsOnTargets="ConsultaJson">
+        <MSBuild Projects="ProjectConsulta.dproj"/>
+    </Target>
+    <Target Name="ProjectConsulta:Clean" DependsOnTargets="ConsultaJson:Clean">
+        <MSBuild Projects="ProjectConsulta.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectConsulta:Make" DependsOnTargets="ConsultaJson:Make">
+        <MSBuild Projects="ProjectConsulta.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ConsultaJson;ProjectConsulta"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ConsultaJson:Clean;ProjectConsulta:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ConsultaJson:Make;ProjectConsulta:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

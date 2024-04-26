@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/25 21:57:35.000.156,=rtl.dcp</Transaction>
+    <Transaction>2024/04/25 21:59:30.000.200,D:\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Documentos\Embarcadero\Studio\Projects\ConsultaJson.dproj</Transaction>
+    <Transaction>2024/04/25 22:01:30.000.295,D:\Documentos\Embarcadero\Studio\Projects\ConsultaJson.dproj=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\ConsultaJson.dproj</Transaction>
+    <Transaction>2024/04/25 22:01:35.000.882,=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\Unit1.pas</Transaction>
+    <Transaction>2024/04/25 22:02:25.000.424,D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\Unit1.pas=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\ReceberDados.pas</Transaction>
+    <Transaction>2024/04/25 22:47:29.436,D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uReceberDados.pas=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\ReceberDados.pas</Transaction>
+    <Transaction>2024/04/25 22:55:13.449,=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uFormatoResposta.pas</Transaction>
+    <Transaction>2024/04/25 22:56:53.734,D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uBuscarCep.pas=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uFormatoResposta.pas</Transaction>
+    <Transaction>2024/04/25 22:59:29.107,D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uFormatoResposta.pas=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uBuscarCep.pas</Transaction>
+    <Transaction>2024/04/25 22:59:38.217,D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uBuscarCep.pas=D:\PROJETO_DELPHI\SOFT_PLAN\ConsultaCep\src\Componente\uReceberDados.pas</Transaction>
+  </Transactions>
+</BorlandProject>
